@@ -1,0 +1,153 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+* {box-sizing: border-box;}
+button {
+    background-color: aliceblue;
+    border-color: transparent;
+    padding: 1em;
+    margin: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: black;
+    padding: 1em;
+    margin: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  transition: 0.1s;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0.733);
+  color: black;
+}
+.topnav .search-container {
+  float: right;
+}
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.botnav {
+    background-color: steelblue;
+    padding: 1px;
+    text-align: center;
+    margin-top: 7px;
+}
+.content {
+    background-color: lightsteelblue;
+    width: 40%;
+    text-align: center;
+}
+.img-content {
+    background-color: lightsteelblue;
+    display: flex;
+    width: 30%;
+    float: left;
+    padding: 1em;
+    margin: 1em;
+}
+.main-content {
+    display: flex;
+    background-color: lightsteelblue;
+    width: 60%;
+    float: right;
+    padding: 1em;
+    margin: 1em;
+}
+
+.content:hover{
+    background-color: white;
+    color: black;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.title-white{
+    color: white;
+    font-size: 1vw;
+}
+.title-white a {
+    color: white;
+    transition: 0.1s;
+    text-decoration: none;
+}
+.title-page {
+    background-color: steelblue;
+    padding: 1px;
+    text-align: center;
+}
+/*link*/
+a:hover {
+    color: black;
+    background-color: transparent;
+}
+a:link{
+    color: navy;
+    transition: 0.1s;
+}
+th{
+  text-align: left;
+  width: 10%;
+  padding-right: 1em;
+}
+th,td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
